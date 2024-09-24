@@ -3,22 +3,23 @@ import csv
 import os
 
 # API Key and Token (replace with your API info)
-API_KEY = 'your_api_key'
-API_TOKEN = 'your_api_token'
-BOARD_ID = 'your_board_id'
+API_KEY = '1f28d3b35afb7ee011095b37a887e0f3'  # Consider using an environment variable
+API_TOKEN = 'ATTA7fb6ad01738adf5050828c616775ddf06a3c35a97190ee606c04406f1be3b33cA8600845'  # Consider using an environment variable
+BOARD_ID = 'Wo7WDgIV'
 
 # Trello API URL
 BASE_URL = 'https://api.trello.com/1'
 
-# Get all cards from a specific board
+# Get all archived cards from a specific board
 def get_archived_cards(board_id):
     url = f"{BASE_URL}/boards/{board_id}/cards"
     query = {
         'key': API_KEY,
         'token': API_TOKEN,
-        'filter': 'closed',  # 'closed' means archived cards
+        'filter': 'closed',  # Ensure we're getting closed (archived) cards
     }
     response = requests.get(url, params=query)
+    response.raise_for_status()  # Raise an error for bad responses
     return response.json()
 
 # Create CSV for each label
@@ -36,9 +37,11 @@ def export_cards_by_label(cards):
         
         for label in card_labels:
             label_name = label.get('name', 'Unknown label')
-            if label_name not in label_card_map:
-                label_card_map[label_name] = []
-            label_card_map[label_name].append({
+            # Sanitize label names for filenames
+            safe_label_name = ''.join(c for c in label_name if c.isalnum() or c in [' ', '_']).strip()
+            if safe_label_name not in label_card_map:
+                label_card_map[safe_label_name] = []
+            label_card_map[safe_label_name].append({
                 'name': card['name'],
                 'desc': card.get('desc', 'No description'),
                 'archived_date': archived_date
@@ -61,15 +64,18 @@ def export_cards_by_label(cards):
 # Main Function
 def main():
     print("Fetching archived cards from Trello...")
-    cards = get_archived_cards(BOARD_ID)
-    
-    if not cards:
-        print("No archived cards found.")
-        return
+    try:
+        cards = get_archived_cards(BOARD_ID)
+        
+        if not cards:
+            print("No archived cards found.")
+            return
 
-    print(f"Found {len(cards)} archived cards. Exporting by label...")
-    export_cards_by_label(cards)
-    print("Export completed.")
+        print(f"Found {len(cards)} archived cards. Exporting by label...")
+        export_cards_by_label(cards)
+        print("Export completed.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()

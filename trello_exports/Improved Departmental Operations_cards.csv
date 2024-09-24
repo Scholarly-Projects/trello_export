@@ -1,0 +1,31 @@
+name,desc,archived_date
+Change description of ir,"[https://verso.uidaho.edu/esploro/](https://verso.uidaho.edu/esploro/ ""smartCard-inline"")",2024-09-24T19:52:08.422Z
+Distant Listening Tech Talk Slides and site modification,- Proof,2024-09-24T18:16:06.208Z
+keep refining text mining tool and word lists,"- if you can get he tool to function on a mac
+- See if you can get it to “modularize” so it isn’t as top heavy",2024-09-17T15:44:43.068Z
+Transcription page,,2024-09-17T15:44:19.780Z
+Revisit Docs policies with Kevin in the summer,"[https://uidaholib.github.io/digital-collections-docs/](https://uidaholib.github.io/digital-collections-docs/ ""smartCard-inline"")",2024-09-17T15:43:13.912Z
+Backend Reorganization,"- Re-write [Digital About](https://www.lib.uidaho.edu/digital/about/ ""‌"") pages (Andrew?).
+- Branding changing to “Digital Collections” (not digital initiatives), will match Search app style. Migrating from older template. Also want to look at content.
+- Make it about Digital Collections (not digital initiatives), provide context
+- how to use digital collections / help page (?)
+  - modal or link in the footer
+- Digital lab information, one page? (On CDIL or digital docs? Where to divide that representation)
+- Digital Collections Docs, Issues, reorganize? [https://github.com/uidaholib/digital-collections-docs](https://github.com/uidaholib/digital-collections-docs ""smartCard-inline"")
+  - move digital collections beneath Student resources
+- Clarify purpose --> student lab guide vs lab docs vs digital collection team docs",2024-09-17T15:42:46.480Z
+Dashboards,"- Overall
+  - No filter – everything that has tags
+- Verso, [verso.uidaho.edu](http://verso.uidaho.edu ""‌"")
+
+Email Devin the links with all of the dashboards for the KPIs that are actionable now.",2024-09-16T19:18:42.520Z
+Digital Geolocation Tools for Archival Research,"‌
+
+- Build slides from the same material",2024-09-05T00:07:35.980Z
+Kelley CB tutorial 08132024,,2024-08-13T20:56:27.575Z
+OpenCV Image Identification and Separation Tool,erase that giant ee packet while you are at it,2024-08-10T00:48:24.223Z
+Digital Collection Docs Issues,"[https://github.com/uidaholib/digital-collections-docs/issues](https://github.com/uidaholib/digital-collections-docs/issues ""smartCard-inline"")
+
+- [https://uidaholib.github.io/digital-collections-docs/content/collection-creation/01-create.html](https://uidaholib.github.io/digital-collections-docs/content/collection-creation/01-create.html ""smartCard-inline"")
+- Update about how Special Collections doesn’t have access to the the drive
+  - Prepping",2024-08-09T00:07:41.569Z

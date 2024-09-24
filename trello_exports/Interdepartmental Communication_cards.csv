@@ -1,0 +1,82 @@
+name,desc,archived_date
+HIST320 Presentation,"- Banner image and slide deck
+- [https://indd.adobe.com/view/13ff985a-d88a-4301-86a0-a2dc4910247e](https://indd.adobe.com/view/13ff985a-d88a-4301-86a0-a2dc4910247e ""smartCard-inline"")",2024-09-21T02:05:15.802Z
+Make GIF template for advertising digital collections,,2024-09-20T18:44:20.341Z
+WWAMI PDF stuff,"[https://docs.google.com/spreadsheets/d/1QD64WXEtKxB8rGPUwooZgINQDYvG7G26JTgNUam-kPQ/edit?gid=723125995#gid=723125995](https://docs.google.com/spreadsheets/d/1QD64WXEtKxB8rGPUwooZgINQDYvG7G26JTgNUam-kPQ/edit?gid=723125995#gid=723125995 ""smartCard-inline"")",2024-09-16T20:34:14.800Z
+"Kuhl, Joseph Book request fulfilled",,2024-08-29T23:06:07.008Z
+Andrea Dutto Renfrew Meeting,,2024-08-21T17:08:26.200Z
+Zeutschel Tutorial 08082024,,2024-08-21T17:07:30.913Z
+Add additional 6 images to drive,,2024-08-14T23:42:52.099Z
+Kelley CB tutorial 08132024,,2024-08-13T20:56:27.575Z
+OpenCV Image Identification and Separation Tool,erase that giant ee packet while you are at it,2024-08-10T00:48:24.223Z
+Digital Collection Docs Issues,"[https://github.com/uidaholib/digital-collections-docs/issues](https://github.com/uidaholib/digital-collections-docs/issues ""smartCard-inline"")
+
+- [https://uidaholib.github.io/digital-collections-docs/content/collection-creation/01-create.html](https://uidaholib.github.io/digital-collections-docs/content/collection-creation/01-create.html ""smartCard-inline"")
+- Update about how Special Collections doesn’t have access to the the drive
+  - Prepping",2024-08-09T00:07:41.569Z
+date change cougar dave,,2024-07-17T17:41:52.103Z
+Evan analytics request,"What are the timelines on these?
+
+- couple weeks
+
+DSOS:
+
+- ""Web traffic to newly released publications"" - i.e. new digital collections, scholarship projects, etc hoping to see if our promotion helps
+  - On digital_all we have a list of the last time collections have been updated – do we have a similar list for when they were first published?
+  - This is [close](https://vandalsuidaho.sharepoint.com/:x:/r/sites/Storage-Library/_layouts/15/Doc.aspx?sourcedoc=%7B08CE4FE4-218B-4F14-AE56-5732A4E0C44E%7D&file=Digital%20Collections%20Tracking.xlsx&action=default&mobileredirect=true&wdsle=0 ""‌"")
+  - [Newly Released Digital Collections Report](https://lookerstudio.google.com/reporting/c158df4c-0526-4f70-b7dc-10b66e5dc14b ""‌"")
+- [Examples ](https://vandalsuidaho.sharepoint.com/:w:/r/sites/Storage-Library/_layouts/15/Doc.aspx?sourcedoc=%7BE0A633CA-04FB-4908-94DA-AF74805F7414%7D&file=digital_collection_team_2023-24_final_report_draft.docx&action=default&mobileredirect=true&wdsle=0 ""‌"")of pre and post launch processes
+  - Thinking about an individual project management checklist that is preserved as a record for reference
+    - [Pre and Post Launch Process Comparison](https://lookerstudio.google.com/reporting/ebc04265-bb6d-4c8e-8564-dc3f3f04fab1 ""‌"") Report
+- ""Web traffic to Pressbooks platform, promotional site, and documentation"" - this is probably low, traffic at uidaho.pressbooks.pub basically
+  - We added GA4 to the code of these sites not long ago, correct?
+  - General traffic template + referral
+    - [Pressbooks Report](https://lookerstudio.google.com/reporting/869b7892-df4f-4b4d-abe8-6f47a1877be5 ""‌"")
+- ""web traffic to CDIL projects, instructional content, and frameworks (non-CollectionBuilder)"" - this might be partly Matomo, but probably need a better list of what we are supposed to measure for this. we could start with basic traffic to projects on [http://cdil.lib.uidaho.edu](http://cdil.lib.uidaho.edu ""smartCard-inline"")
+  - Are the CDIL sites added to the main GA4 stream? Looks like it is but double checking
+  - Need to change to full page URL for domain names
+    - just make a copy that is only CDIL
+      - [CDIL Only Report](https://lookerstudio.google.com/reporting/1ee29ea8-7967-47d2-9658-7a1c71d68eac ""‌"")
+
+DCT:
+
+- ""Web engagement statistics (as determined by team lead after evaluation)"" - still not sure best, you could look at what Olivia was doing in the last years spreadsheets. could create a dashboard of just traffic to /digital/ as a good start probably
+  - [This is /digital/  and the CDIL feed](https://lookerstudio.google.com/reporting/a0c98fe6-e9d9-463e-9b5d-961d02feac39 ""‌""). Do you want another that is just /digital/?
+    - yes
+    - take out the snow
+      - [/Digital Only Report](https://lookerstudio.google.com/reporting/72640fd3-e4cc-4029-8105-aa1cdf4cd41f ""‌"")
+- ""Web acquisition statistics, particularly in terms of driving visitors to/from digital to Harvester and other SPEC websites."" - maybe just look at traffic to Harvester, volume, where does it come from, where do they go after (like to they follow links to Spec or finding aids or our digital collections)
+  - I’m not getting any data from the Harvester on our [Special Collections report](https://lookerstudio.google.com/reporting/801496d0-6754-41d5-b3e9-5d7b9d9584de ""‌""). Has it been set  up?
+    - full URL fix
+      - [Harvester Report](https://lookerstudio.google.com/reporting/9b56bc21-f555-43ba-8d01-a1b15293a7c1 ""‌"")
+      - [Special Collections Report](https://lookerstudio.google.com/reporting/52b48ef3-b940-44eb-aa4b-84246630bdab ""‌"")
+- ""# of visits to digital collections' contextual/interpretive content"" - just traffic to About pages. Can we just filter by /about.html??
+  - [/Digital /About Report](https://lookerstudio.google.com/reporting/c0341161-f0c0-44d8-b1c6-c018e5443851 ""‌"")
+
+Website:
+
+- ""Web engagement statistics (as determined by team lead after evaluation)"" - I guess just basic stats compared to previous years, check if anything different stands out.
+  - You can do this by looking at those time frames within the Library Wide Report
+    - take out /digital/
+    - take out abrahams
+      - [Library Wide Report](https://lookerstudio.google.com/reporting/f732e2fa-6d15-439c-ab2f-63106973c1ab ""‌"")
+      - [Library Wide Sans /digital Report](https://lookerstudio.google.com/reporting/f57bcd64-af48-40e6-a4d4-8e90a6f47cb3 ""‌"")
+- ""Web traffic between properties and main university website "" – [http://uidaho.edu](http://uidaho.edu ""smartCard-inline"")  as referrer to our sites?
+  - Which properties?
+  - Everything including digital just looking at the main library
+    - [Library Wide Sans lib.uidaho.edu Referrals Report](https://lookerstudio.google.com/reporting/6ecc44e1-dc78-45de-9f84-a8aea6a276bf ""‌"")",2024-07-05T23:45:12.318Z
+Digital Dramaturgy,"- [Grant](https://www.neh.gov/grants/odh/digital-humanities-advancement-grants ""‌"")
+  - The grant is directed to incorporating the version history element
+- [Measure for Measure](https://github.com/thecdil/measureformeasure ""‌"") Git
+  - To do:
+    - Work in progress: [Annotation Platform Survey](https://docs.google.com/document/d/1q3LTWhDdwOfsQ2z_M5Bjf4ysI6DBo5oA7sho80WKJ1s/edit?usp=sharing ""‌"")
+      - Go a little more in detail in how the platforms contrast from DD
+      - Visualization?
+  - Review grant materials and consider how to present it as a package
+    - Give it a look but don’t do a deep dive
+  - Draft→ [new_narrative](https://docs.google.com/document/d/1Vwb6cDUBLhZGMgPsNPc8l1KsAe5lYIQnehDhGuTgSh4/edit?usp=sharing ""‌"")
+    - Look at environmental scan section and revise
+    - Add thoughts related to being lean, mobile friendly and multi-tasking oriented
+      - Write in suggest mode",2024-06-20T03:34:23.965Z
+SAH Materials,"- A session title not longer than 65 characters, including spaces and punctuation.
+- An abstract of the session (300-word maximum).",2024-06-20T03:33:56.647Z
