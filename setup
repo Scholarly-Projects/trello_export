@@ -1,0 +1,30 @@
+# Setting Up a Virtual Environment for Python Dependencies
+
+```bash
+python3 -m venv .venv
+```
+
+## Step 2: Activate the Virtual Environment
+
+On Mac
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows
+```bash
+.venv\Scripts\activate
+```
+
+## Step 3: Install Required Packages
+
+```bash
+pip install requests
+```
+
+## Step 4: Run Script
+
+```bash
+python script.py
+```

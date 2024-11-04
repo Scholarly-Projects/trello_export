@@ -1,4 +1,4 @@
-#!/Users/andrewweymouth/Documents/GitHub/trello_export/path/to/venv/bin/python3.12
+#!/Users/andrewweymouth/Documents/GitHub/trello_export/path/to/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

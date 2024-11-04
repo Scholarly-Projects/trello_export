@@ -1,4 +1,8 @@
 name,desc,archived_date
+Taylor Metadata Request,"- **Resolve Multiple Image Display**: Ensure that entries with multiple images display all available images. For example, in ""twrs021,"" the top entry should be set as the ""multiple,"" and subsequent entries should be marked as “image” with just titles.
+- **Verify Multiple vs. Compound Object Assignments**: Check if items assigned as ""multiple"" are correct. Some may mistakenly be ""compound_object"" or have been marked as ""image"" but are PDFs, such as the panorama images.
+- **Convert PDFs to Images**: Consider converting panorama shots currently in PDF format to images for better user accessibility and zoom functionality within the gallery view.",2024-11-04T18:35:04.782Z
+Create second round of promotional visualizations,1. Throw em on the drives and distribute,2024-10-31T07:28:09.657Z
 Institute for Research Design in Librarianship (IRDL) Seven Minute Presentation - Distant Listening Reconfiguration.,,2024-10-05T00:44:19.729Z
 Update CALS presentation,"[https://docs.google.com/document/d/1ilATSrhjVOFwqfGutkx5KOsV2fLrQj5gS_rr1vikFh4/edit?usp=sharing](https://docs.google.com/document/d/1ilATSrhjVOFwqfGutkx5KOsV2fLrQj5gS_rr1vikFh4/edit?usp=sharing ""smartCard-inline"")",2024-10-04T19:16:02.183Z
 Change description of ir,"[https://verso.uidaho.edu/esploro/](https://verso.uidaho.edu/esploro/ ""smartCard-inline"")",2024-09-24T19:52:08.422Z
