@@ -2,9 +2,7 @@
 
 Tool for exporting archived Trello cards, categorized by label to help track activity for liaison reports and annual reviews. _Andrew Weymouth, Fall 2024_.
 
-# Setup
-
-# Step 1: Building Virtual Environment for Python Dependencies
+## Step 1: Building Virtual Environment for Python Dependencies
 
 ```bash
 python3 -m venv .venv
@@ -33,7 +31,7 @@ pip install requests
 
 To use the script, you will need to locate your Trello **API Key**, **API Token**, and the **Board ID** for the board you wish to export archived cards from.
 
-### 1. Get Your Trello API Key and API Token
+### A. Get Your Trello API Key and API Token
    - Visit the [Trello Developer API Key Page](https://trello.com/app-key).
    - Log in with your Trello account credentials.
    - Go to the [Power-Up Admin Portal](https://trello.com/power-ups/admin/)
@@ -43,7 +41,7 @@ To use the script, you will need to locate your Trello **API Key**, **API Token*
    - To the right of the API field, select [manually generate a token](https://trello.com/1/authorize?expiration=never&scope=read,write,account&response_type=token&key=1f28d3b35afb7ee011095b37a887e0f3)
    - Approve the requested permissions and copy your **API Token**
 
-### 2. Find Your Board ID
+### B. Find Your Board ID
    - Open the Trello board in your web browser
    - Look at the URL. It should look something like this:
      ```
@@ -51,7 +49,7 @@ To use the script, you will need to locate your Trello **API Key**, **API Token*
      ```
    - The **Board ID** is the string of characters after `/b/` and before the next `/`. In this example, the Board ID is `abcdef123456`.
 
-### 3. Add API Credentials and Board ID to the Script
+### C. Add API Credentials and Board ID to the Script
    - Open the `script.py` file in a text editor
    - Replace the placeholders for `API_KEY`, `API_TOKEN`, and `BOARD_ID` with your actual values:
 
