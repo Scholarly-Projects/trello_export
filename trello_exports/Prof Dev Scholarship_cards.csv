@@ -1,4 +1,23 @@
 name,desc,archived_date
+Instruction Team Discussion Series: AI in information literacy instruction,"- Burt and Casey
+  \- “Fraught with Ought” sending misinformation
+- ChaGTP promising results that it can’t generate
+- [https://arcprize.org/](https://arcprize.org/ ""smartCard-inline"")
+- pattern-making contextualization
+- encoding > compressing > decoding
+- changing the temperature of text prediction
+- Look at current text sequence, predict the next token, add token to our current sequence
+  - There’s no learning that is happening in the actual interaction
+  - There’s no context with previous conversation - tabula rasa
+- One perspective is that many of the models are just based on extensive web scraping – so if it hasn’t recorded something – or a near duplicate – it breaks down.
+- Novel concepts and pattern-making ability breaks down these platforms
+- The stumbling block is inference
+
+[https://notebooklm.google/](https://notebooklm.google/ ""smartCard-inline"")
+
+- Pedagogy: Demonstrate the shortcomings of inference
+  - Moral psychology shortcomings
+  - Wasting task theory",2024-12-05T19:59:08.001Z
 W10: Can You Try Again?: Using Large Language Models to Generate Alt Text for Online Image Collections,"Date: Wednesday, 23/Oct/2024 12pm",2024-10-23T21:32:46.360Z
 "Tu16: Insights from User Research on Digital Collections for Text, Image, and Audio/Moving Images at the University of Michigan","Tuesday, 22/Oct/2024 1:30pm",2024-10-23T21:32:44.294Z
 Colonial Legacies and the History and Present of the Mexican Migrants in Idaho with Dr. Eulalia Gallegos Buitron,,2024-10-11T03:02:27.557Z

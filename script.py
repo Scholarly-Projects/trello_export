@@ -3,9 +3,9 @@ import csv
 import os
 
 # API Key and Token (replace with your API info)
-API_KEY = ''  # Consider using an environment variable
-API_TOKEN = ''  # Consider using an environment variable
-BOARD_ID = ''
+API_KEY =   
+API_TOKEN =  
+BOARD_ID = 
 
 # Trello API URL
 BASE_URL = 'https://api.trello.com/1'
