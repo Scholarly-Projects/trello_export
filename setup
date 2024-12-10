@@ -63,10 +63,7 @@ Once everything is set up, run the script:
 python script.py
 ```
 
-## Step 6: Add .gitignore file for sensitive information
+## Step 6: Remove API information from script.py and add to .gitignore
 
-To keep API information secure, remove this data before saving your script.py file and it to a .gitignore file, which will preserve this information for future reference but only be accessible to you locally. As long as your repo is set to private, this information will be secure.
+To keep API information secure, remove this data before saving your script.py file and save it to the .gitignore file, which will preserve this information for future reference but only be accessible to you (as long as your repository is set to private).
 
-```bash
-touch .gitignore
-```
